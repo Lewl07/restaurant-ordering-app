@@ -48,7 +48,11 @@ public class PrimaryController {
 
     @FXML
     void clearOrder(ActionEvent event) {
-
+        entreeLv.getSelectionModel().clearSelection();
+        drinkSelection.selectToggle(null);
+        waterCb.setSelected(false);
+        specialRequestTf.setText("");
+        totalLbl.setText("Total: $0.00");
     }
 
     @FXML
