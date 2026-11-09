@@ -56,4 +56,11 @@ public class PrimaryController {
         App.setRoot("secondary");
     }
     
+    public void initialize() {
+        entreeLv.getItems().addAll(
+                "Chicken Salad",
+                "Turkey Sandwich",
+                "Vegetable Wrap",
+                "Grilled Cheese");
+    }
 }
