@@ -11,11 +11,14 @@ import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleGroup;
 
-public class PrimaryController {
+public class OrderController {
 
     @FXML
     private Button clearOrderBtn;
 
+    @FXML
+    private Button placeOrderBtn;
+    
     @FXML
     private RadioButton coffeeBtn;
 
@@ -27,9 +30,6 @@ public class PrimaryController {
 
     @FXML
     private RadioButton juiceBtn;
-
-    @FXML
-    private Button placeOrderBtn;
 
     @FXML
     private RadioButton sodaBtn;
@@ -45,16 +45,6 @@ public class PrimaryController {
 
     @FXML
     private CheckBox waterCb;
-    
-    private final double chickenSaladPrice = 6.50;
-    private final double turkeySandwichPrice = 6.75;
-    private final double vegetableWrapPrice = 6.00;
-    private final double grilledCheesePrice = 5.00;
-    
-    private final double coffeePrice = 1.50;
-    private final double teaPrice = 1.50;
-    private final double sodaPrice = 2.00;
-    private final double juicePrice = 1.75;
     
     @FXML
     void clearOrder(ActionEvent event) {
@@ -78,5 +68,47 @@ public class PrimaryController {
                 "Grilled Cheese");
     }
     
+    public Button getClearOrderBtn() {
+        return clearOrderBtn;
+    }
     
+    public Button getPlaceOrderBtn() {
+        return placeOrderBtn;
+    }
+    
+    public RadioButton getCoffeeBtn() {
+        return coffeeBtn;
+    }
+    
+    public ToggleGroup getToggleGroup() {
+        return drinkSelection;
+    }
+    
+    public ListView<String> getEntreeLv() {
+        return entreeLv;
+    }
+    
+    public RadioButton getJuiceBtn() {
+        return juiceBtn;
+    }
+    
+    public RadioButton getSodaBtn() {
+        return sodaBtn;
+    }
+    
+    public TextField getSpecialRequestTf() {
+        return specialRequestTf;
+    }
+    
+    public RadioButton getTeaBtn() {
+        return teaBtn;
+    }
+    
+    public Label getTotalLbl() {
+        return totalLbl;
+    }
+    
+    public CheckBox getWaterCb() {
+        return waterCb;
+    }
 }
