@@ -45,6 +45,11 @@ public class PrimaryController {
 
     @FXML
     private CheckBox waterCb;
+    
+    private final double chickenSaladPrice = 6.50;
+    private final double turkeySandwichPrice = 6.75;
+    private final double vegetableWrapPrice = 6.00;
+    private final double grilledCheesePrice = 5.00;
 
     @FXML
     void clearOrder(ActionEvent event) {
@@ -67,4 +72,6 @@ public class PrimaryController {
                 "Vegetable Wrap",
                 "Grilled Cheese");
     }
+    
+    
 }
