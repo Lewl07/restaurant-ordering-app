@@ -1,12 +1,59 @@
 package com.mycompany.restaurant.ordering.app;
 
 import java.io.IOException;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
+import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
+import javafx.scene.control.RadioButton;
+import javafx.scene.control.TextField;
+import javafx.scene.control.ToggleGroup;
 
 public class PrimaryController {
 
     @FXML
-    private void switchToSecondary() throws IOException {
+    private Button clearOrderBtn;
+
+    @FXML
+    private RadioButton coffeeBtn;
+
+    @FXML
+    private ToggleGroup drinkSelection;
+
+    @FXML
+    private ListView<String> entreeLv;
+
+    @FXML
+    private RadioButton juiceBtn;
+
+    @FXML
+    private Button placeOrderBtn;
+
+    @FXML
+    private RadioButton sodaBtn;
+
+    @FXML
+    private TextField specialRequestTf;
+
+    @FXML
+    private RadioButton teaBtn;
+
+    @FXML
+    private Label totalLbl;
+
+    @FXML
+    private CheckBox waterCb;
+
+    @FXML
+    void clearOrder(ActionEvent event) {
+
+    }
+
+    @FXML
+    void placeOrder(ActionEvent event) throws IOException {
         App.setRoot("secondary");
     }
+    
 }
