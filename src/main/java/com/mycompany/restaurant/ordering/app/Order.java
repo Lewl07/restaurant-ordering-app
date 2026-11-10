@@ -24,4 +24,44 @@ public class Order {
 //    private double calculate() {
 //        
 //    }
+    
+    public void setEntree(String entree) {
+        this.entree = entree;
+    }
+
+    public void setDrink(String drink) {
+        this.drink = drink;
+    }
+
+    public void setSpecialRequests(String specialRequests) {
+        this.specialRequests = specialRequests;
+    }
+
+    public void setWater(boolean water) {
+        this.water = water;
+    }
+
+    public String getEntree() {
+        return entree;
+    }
+
+    public String getDrink() {
+        return drink;
+    }
+
+    public String getSpecialRequests() {
+        return specialRequests;
+    }
+
+    public boolean isWater() {
+        return water;
+    }
+
+    public boolean hasEntree() {
+        return !entree.equals("");
+    }
+
+    public boolean hasDrink() {
+        return !drink.equals("");
+    }
 }
