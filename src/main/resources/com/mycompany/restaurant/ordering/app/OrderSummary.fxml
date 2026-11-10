@@ -21,21 +21,21 @@
             <HBox prefHeight="100.0" prefWidth="200.0" spacing="55.0">
                <children>
                   <Label maxHeight="1.7976931348623157E308" text="Entree:" />
-                  <Label fx:id="entreeSummaryLbl" maxHeight="1.7976931348623157E308" text="placeholder" />
-                  <Label fx:id="entreePriceLbl" maxHeight="1.7976931348623157E308" text="\$" />
+                  <Label fx:id="entreeSummaryLbl" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="33.0" prefWidth="80.0" text="placeholder" />
+                  <Label fx:id="entreePriceLbl" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="33.0" prefWidth="58.0" text="\$" />
                </children>
             </HBox>
             <HBox prefHeight="100.0" prefWidth="200.0" spacing="55.0">
                <children>
                   <Label maxHeight="1.7976931348623157E308" text="Drink:" />
-                  <Label fx:id="drinkSummaryLbl" maxHeight="1.7976931348623157E308" text="placeholder" />
-                  <Label fx:id="drinkPriceLbl" maxHeight="1.7976931348623157E308" text="\$" />
+                  <Label fx:id="drinkSummaryLbl" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="33.0" prefWidth="87.0" text="placeholder" />
+                  <Label fx:id="drinkPriceLbl" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="33.0" prefWidth="45.0" text="\$" />
                </children>
             </HBox>
             <HBox prefHeight="100.0" prefWidth="200.0" spacing="55.0">
                <children>
                   <Label maxHeight="1.7976931348623157E308" text="Water:" />
-                  <Label fx:id="waterSummaryLbl" maxHeight="1.7976931348623157E308" text="placeholder" />
+                  <Label fx:id="waterSummaryLbl" maxHeight="1.7976931348623157E308" prefHeight="33.0" prefWidth="88.0" text="placeholder" />
                </children>
             </HBox>
             <HBox prefHeight="100.0" prefWidth="200.0" spacing="55.0">
