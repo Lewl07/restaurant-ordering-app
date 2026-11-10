@@ -48,11 +48,10 @@ public class Order {
             return 0.0;
         }
     }
-        
     
-//    private double calculate() {
-//        
-//    }
+    public double calcTotal() {
+        return getEntreePrice() + getDrinkPrice();
+    }
     
     public void setEntree(String entree) {
         this.entree = entree;
