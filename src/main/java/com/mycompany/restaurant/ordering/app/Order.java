@@ -2,7 +2,7 @@ package com.mycompany.restaurant.ordering.app;
 
 /**
  *
- * @author 6375071
+ * @author Leo
  */
 public class Order {
     
