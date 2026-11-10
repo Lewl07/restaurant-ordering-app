@@ -21,6 +21,35 @@ public class Order {
     private String specialRequests = "";
     private boolean water = false;
 
+    public double getEntreePrice() {
+        if (entree.equals("Chicken Salad")) {
+            return chickenSaladPrice;
+        } else if (entree.equals("Turkey Sandwich")) {
+            return turkeySandwichPrice;
+        } else if (entree.equals("Vegetable Wrap")) {
+            return vegetableWrapPrice;
+        } else if (entree.equals("Grilled Cheese")) {
+            return grilledCheesePrice;
+        } else {
+            return 0.0;
+        }
+    }
+    
+    public double getDrinkPrice() {
+        if (drink.equals("Coffee")) {
+            return coffeePrice;
+        } else if (drink.equals("Tea")) {
+            return teaPrice;
+        } else if (drink.equals("Soda")) {
+            return sodaPrice;
+        } else if (drink.equals("Juice")) {
+            return juicePrice;
+        } else {
+            return 0.0;
+        }
+    }
+        
+    
 //    private double calculate() {
 //        
 //    }
