@@ -53,6 +53,13 @@ public class Order {
         return getEntreePrice() + getDrinkPrice();
     }
     
+    public void clear() {
+        entree = "";
+        drink = "";
+        specialRequests = "";
+        water = false;
+    }
+    
     public void setEntree(String entree) {
         this.entree = entree;
     }
