@@ -12,6 +12,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleGroup;
 
 public class OrderController {
+    
+    private Order order = new Order();
 
     @FXML
     private Button clearOrderBtn;
@@ -48,10 +50,7 @@ public class OrderController {
     
     @FXML
     void clearOrder(ActionEvent event) {
-        entreeLv.getSelectionModel().clearSelection();
-        drinkSelection.selectToggle(null);
-        waterCb.setSelected(false);
-        specialRequestTf.setText("");
+        order.clear();
         totalLbl.setText("Total: $0.00");
     }
 
@@ -66,49 +65,5 @@ public class OrderController {
                 "Turkey Sandwich",
                 "Vegetable Wrap",
                 "Grilled Cheese");
-    }
-    
-    public Button getClearOrderBtn() {
-        return clearOrderBtn;
-    }
-    
-    public Button getPlaceOrderBtn() {
-        return placeOrderBtn;
-    }
-    
-    public RadioButton getCoffeeBtn() {
-        return coffeeBtn;
-    }
-    
-    public ToggleGroup getToggleGroup() {
-        return drinkSelection;
-    }
-    
-    public ListView<String> getEntreeLv() {
-        return entreeLv;
-    }
-    
-    public RadioButton getJuiceBtn() {
-        return juiceBtn;
-    }
-    
-    public RadioButton getSodaBtn() {
-        return sodaBtn;
-    }
-    
-    public TextField getSpecialRequestTf() {
-        return specialRequestTf;
-    }
-    
-    public RadioButton getTeaBtn() {
-        return teaBtn;
-    }
-    
-    public Label getTotalLbl() {
-        return totalLbl;
-    }
-    
-    public CheckBox getWaterCb() {
-        return waterCb;
     }
 }
