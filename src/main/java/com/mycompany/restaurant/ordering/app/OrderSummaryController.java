@@ -45,9 +45,9 @@ public class OrderSummaryController {
         }
 
         if (order.getSpecialRequests().trim().equals("")) {
-            requestSummaryLbl.setText("None");
+            requestSummaryLbl.setText("Special Request: None");
         } else {
-            requestSummaryLbl.setText(order.getSpecialRequests());
+            requestSummaryLbl.setText("Special Request: " + order.getSpecialRequests());
         }
 
         totalSummaryLbl.setText("$" + String.format("%.2f", order.calcTotal()));

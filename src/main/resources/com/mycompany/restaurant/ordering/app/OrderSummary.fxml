@@ -20,27 +20,27 @@
          <children>
             <HBox prefHeight="100.0" prefWidth="200.0" spacing="55.0">
                <children>
-                  <Label maxHeight="1.7976931348623157E308" text="Entree:" />
-                  <Label fx:id="entreeSummaryLbl" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="33.0" prefWidth="80.0" text="placeholder" />
+                  <Label maxHeight="1.7976931348623157E308" prefHeight="33.0" prefWidth="65.0" text="Entree:" />
+                  <Label fx:id="entreeSummaryLbl" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="33.0" prefWidth="99.0" text="placeholder" />
                   <Label fx:id="entreePriceLbl" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="33.0" prefWidth="58.0" text="\$" />
                </children>
             </HBox>
             <HBox prefHeight="100.0" prefWidth="200.0" spacing="55.0">
                <children>
-                  <Label maxHeight="1.7976931348623157E308" text="Drink:" />
-                  <Label fx:id="drinkSummaryLbl" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="33.0" prefWidth="87.0" text="placeholder" />
-                  <Label fx:id="drinkPriceLbl" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="33.0" prefWidth="45.0" text="\$" />
+                  <Label maxHeight="1.7976931348623157E308" prefHeight="33.0" prefWidth="65.0" text="Drink:" />
+                  <Label fx:id="drinkSummaryLbl" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="33.0" prefWidth="93.0" text="placeholder" />
+                  <Label fx:id="drinkPriceLbl" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="33.0" prefWidth="63.0" text="\$" />
                </children>
             </HBox>
             <HBox prefHeight="100.0" prefWidth="200.0" spacing="55.0">
                <children>
                   <Label maxHeight="1.7976931348623157E308" text="Water:" />
-                  <Label fx:id="waterSummaryLbl" maxHeight="1.7976931348623157E308" prefHeight="33.0" prefWidth="88.0" text="placeholder" />
+                  <Label fx:id="waterSummaryLbl" maxHeight="1.7976931348623157E308" prefHeight="33.0" prefWidth="154.0" text="placeholder" />
                </children>
             </HBox>
             <HBox prefHeight="100.0" prefWidth="200.0" spacing="55.0">
                <children>
-                  <Label fx:id="requestSummaryLbl" maxHeight="1.7976931348623157E308" prefHeight="33.0" prefWidth="93.0" text="Special Requests:" />
+                  <Label fx:id="requestSummaryLbl" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="33.0" prefWidth="257.0" text="Special Requests:" />
                </children>
             </HBox>
          </children>
